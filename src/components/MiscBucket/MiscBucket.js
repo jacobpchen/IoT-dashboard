@@ -9,10 +9,10 @@ const MiscBucket = () => {
         <Container>
             <Row>
                 <Col className="w-40">
-                    <YoutubeEmbed embedId="t1vW6gMyPoQ" />
+                    <YoutubeEmbed embedId="8-ODDQMgobU" />
                 </Col>
                 <Col>
-                    <img src={weather} style={{ height: "200px", width: "100%"}} alt="picture of the forecast" />
+                    <img src={weather} style={{ height: "200px", width: "100%" }} alt="picture of the forecast" />
                 </Col>
             </Row>
         </Container>
