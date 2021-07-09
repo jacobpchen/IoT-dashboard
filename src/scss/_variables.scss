@@ -1,0 +1,61 @@
+// Variable overrides
+
+// Note that graph colors must be set in js
+
+$background-color: #fff;
+$text-color: #000;
+
+$highlight-color: #f0502d;
+$highlight-color-light: rgba(240, 80, 45, 0.63);
+
+$highlight-color-2: #3b86ff;
+$highlight-color-2-light: rgba(233, 163, 148, 0.63);
+
+$highlight-color-3: #d9d9d8;
+$highlight-color-3-light: rgba(217, 217, 216, 0.63);
+
+$total-graph-color: #ffff479f;
+$total-graph-color-light: rgba(253, 253, 6, 0.63);
+
+$highlight-color-4: #ff6565;
+
+$isun-orange: #ff6d4d;
+$isun-green: #a6ce39;
+$isun-purple: #cc8ece;
+$isun-grey: #676767;
+$isun-light-grey: #A8A8A8;
+
+$bus-stop-background: #faf9f9;
+$bus-stop-aq-background: #bee3db;
+$bus-stop-aq-text-font: #555b6e;
+$current-stop: #80ed99;
+$current-stop-outline: #57cc99;
+$next-stop: #ffef9f;
+$next-stop-outline: #fadda2;
+
+:export {
+  backgroundColor: $background-color;
+  textColor: $text-color;
+  highlightColor: $highlight-color;
+  highlightColorLight: $highlight-color-light;
+  highlightColor2: $highlight-color-2;
+  highlightColor2Light: $highlight-color-2-light;
+  highlightColor3: $highlight-color-3;
+  highlightColor3Light: $highlight-color-3-light;
+  highlightColor4: $highlight-color-4;
+  totalGraphColor: $total-graph-color;
+  totalGraphColorLight: $total-graph-color-light;
+  iSunOrange: $isun-orange;
+  iSunPurple: $isun-purple;
+  iSunGreen: $isun-green;
+  iSunGrey: $isun-grey;
+  iSunLightGrey: $isun-light-grey;
+  busStopBackground: $bus-stop-background;
+  busStopAqBackground: $bus-stop-aq-background;
+  busStopAqTextFont: $bus-stop-aq-text-font;
+  currentStop: $current-stop;
+  nextStop: $next-stop;
+  currentStopOutline: $current-stop-outline;
+  nextStopOutline: $next-stop-outline;
+
+}

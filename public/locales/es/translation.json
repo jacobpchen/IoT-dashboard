@@ -1,0 +1,123 @@
+{
+    "Nav": {
+        "0": "Dashboard",
+        "1": "Sites",
+        "2": "Admin Overview",
+        "3": "Admin Settings"
+    },
+    "Language": {
+        "Language": "Idioma",
+        "English": "Inglés",
+        "Spanish": "Español",
+        "French": "Francés"
+    },
+    "Profile": {
+        "Admins": "Admins",
+        "Logout": "Cerrar sesión"
+    },
+    "ButtonGroup": {
+        "Day": "Día",
+        "Month": "Mes",
+        "Year": "Año",
+        "Lifetime": "Vida"
+    },
+    "InverterChart": {
+        "Default": "Defecto",
+        "Title": {
+            "1": "Energía producida",
+            "2": "Energía producida"
+        },
+        "Legend": {
+            "1": "Energía producida",
+            "2": "Energía producida"
+        }
+    },
+    "EnergyValue": {
+        "Title": "Valor energético",
+        "PV": "Costo de energía producido a partir de PV",
+        "EV": "Ingresos por carga de vehículos eléctricos",
+        "Tooltip": "El total de costos ahorrados a través de la producción de energía solar y los ingresos generados por la carga de vehículos eléctricos."
+    },
+    "EVMilesDriven": {
+        "Title": "Millas EV conducidas",
+        "Date": {
+            "Today": "Hoy",
+            "Month": "MMM YYYY",
+            "Year": "YYYY",
+            "Total": "Total"
+        },
+        "Tooltip": "El total de millas que su vehículo eléctrico puede conducir mientras funciona con energía solar."
+    },
+    "EVChargerUsage": {
+        "Title": "Uso del cargador EV",
+        "Total": "Total",
+        "Status": {
+            "Available": "Disponible",
+            "InUse": "En uso",
+            "Unavailable": "Indisponible (!)"
+        },
+        "Tooltip": "Vista en tiempo real de los cargadores que están disponibles, en uso o no disponibles."
+    },
+    "AirQuality": {
+        "Title": "Calidad del aire",
+        "Category": {
+            "Good": "La calidad del aire se considera satisfactoria y la contaminación del aire presenta poco o ningún riesgo.",
+            "Moderate": "La calidad del aire es aceptable; sin embargo, para algunos contaminantes puede haber un problema de salud moderado para un número muy pequeño de personas que son inusualmente sensibles a la contaminación del aire.",
+            "UnhealthyForSensitiveGroups": "Los miembros de grupos sensibles pueden experimentar efectos sobre la salud. No es probable que el público en general se vea afectado.",
+            "Unhealthy": "Todos pueden comenzar a experimentar efectos sobre la salud; los miembros de grupos sensibles pueden experimentar efectos de salud más graves.",
+            "VeryHealthy": "Alerta de salud: todos pueden experimentar efectos de salud más graves.",
+            "Hazardous": "Advertencias sanitarias de situaciones de emergencia. Es más probable que toda la población se vea afectada."
+        },
+        "Tooltip": "Métricas locales de calidad del aire para material particulado 2.5. El anillo de color corresponde al índice de calidad del aire de la EPA."
+    },
+    "AirQualityTrend": {
+        "Title": "Tendencia de la calidad del aire",
+        "Tooltip": "Una medida del contenido de PM2.5 local a lo largo del tiempo. Los colores corresponden al índice de calidad del aire de la EPA."
+    },
+    "SoundAndLight": {
+        "Title": "Sonido y luz",
+        "Tooltip": "Medidas locales en tiempo real de lux (luz) y decibelios (decibelios). Ayuda a explicar las tendencias de producción de energía en cualquier momento."
+    },
+    "Weather": {
+        "Title": "Clima",
+        "Tooltip": "Temperatura y humedad locales."
+    },
+    "CarbonEmissionsSaved": {
+        "Title": "Ahorro de emisiones de carbono",
+        "Date": {
+            "Today": "Hoy",
+            "Month": "MMM YYYY",
+            "Year": "YYYY",
+            "Total": "Total"
+        },
+        "EV": "Del uso de vehículos eléctricos",
+        "PV": "De la producción fotovoltaica",
+        "Tooltip": "Emisiones de carbono ahorradas con el tiempo mediante la producción solar y el uso de vehículos eléctricos en lugar de fuentes de energía no renovables y vegetales que funcionan con gasolina."
+    },
+    "BatteryCapacity": {
+        "Title": "Capacidad de la batería",
+        "Tooltip": "Capacidad actual de los niveles de batería de su iSun Roam."
+    },
+    "LastUpdated": {
+        "Text": "Última actualización"
+    },
+    "LatestReading": {
+        "Text": "Última lectura"
+    },
+    "NoDataAvailable": "Datos no disponibles",
+    "Time": "h:mm a [el] dddd, MMMM D",
+    "MessageCard": {
+        "FailedLoad": "No se pudo cargar. Vuelve a intentarlo más tarde.",
+        "NoCarPort": "No hay estacionamiento techado asignado a tu cuenta.",
+        "ContactAdminCP": "Comuníquese con un administrador para que le asignen estacionamiento techado"
+    },
+    "Notify": {
+        "Timeout": "Tiempo de espera, actualice la página",
+        "Unauthorized": "No se puede acceder a esta cochera, volviendo a la predeterminada"
+    },
+    "Loading": {
+        "Loading": "Cargando",
+        "LoadingData": "Cargando datos",
+        "PreparingPage": "Préparation de la page"
+    }
+}

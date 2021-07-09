@@ -1,0 +1,82 @@
+.battery-container{
+    padding-bottom: 50px;
+}
+.battery-subcontainer{
+    max-width: none;
+}
+.battery-outer {
+    height: 80px;
+    width: 210px;
+    border: 2px solid #222;
+    padding: 2px;
+    border-radius: 7px;
+    display:flex;
+    position: relative;
+}
+.battery-inner {
+    width: 100%;
+    /*margin: 1px 2px;*/
+    border-radius: 7px;
+    /*background-color: #01770a;*/
+}
+.battery-mid .battery-inner {
+    background: #ff6d4d;
+}
+.battery-empty .battery-inner {
+    background: #8b0000;
+}
+.battery-outer::before {
+    content: "";
+    width: 8px;
+    position: absolute;
+    top: 35%;
+    height: 24px;
+    left: 206px;
+    border: 2px solid #222;
+}
+
+.battery-outer .battery-charging-indicator {
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    color: #cbd71d;
+    font-size: 35px;
+    display: none;
+    /* transform: rotate(-90deg); */
+}
+.battery-outer .battery-charging-indicator {
+    display: block;
+    animation: fadeIn 0.8s infinite alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* .rotate-battery{
+    transform: rotate(90deg);
+} */
+.percent-font{
+    font-size: 33px;
+    font-weight: bold;
+    position: absolute;
+    right: 36%;
+    bottom: 18%;
+    mix-blend-mode: difference;
+}
+
+@media only screen and (min-width: 1274px){
+    .percent-font{
+        font-size: 50px;
+        font-weight: bold;
+        float: right;
+        mix-blend-mode: normal;
+        position: static;
+        right: 0;
+        bottom:0;
+    }
+}

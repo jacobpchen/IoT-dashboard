@@ -1,0 +1,123 @@
+{
+    "Nav": {
+        "0": "Dashboard",
+        "1": "Sites",
+        "2": "Admin Overview",
+        "3": "Admin Settings"
+    },
+    "Language": {
+        "Language": "Langue",
+        "English": "Anglais",
+        "Spanish": "Espagnol",
+        "French": "Français"
+    },
+    "Profile": {
+        "Admins": "Admins",
+        "Logout": "Se déconnecter"
+    },
+    "ButtonGroup": {
+        "Day": "Jour",
+        "Month": "Mois",
+        "Year": "Année",
+        "Lifetime": "Vie"
+    },
+    "InverterChart": {
+        "Default": "Défaut",
+        "Title": {
+            "1": "Puissance produite",
+            "2": "Énergie produite"
+        },
+        "Legend": {
+            "1": "Puissance produite",
+            "2": "Énergie produite"
+        }
+    },
+    "EnergyValue": {
+        "Title": "Valeur énergétique",
+        "PV": "Coût énergétique produit à partir du PV",
+        "EV": "Revenus provenant de la recharge des VE",
+        "Tooltip": "Le total des économies réalisées grâce à la production d'énergie solaire et des revenus générés par la recharge des VE."
+    },
+    "EVMilesDriven": {
+        "Title": "Miles EV parcourus",
+        "Date": {
+            "Today": "Jour",
+            "Month": "MMM YYYY",
+            "Year": "YYYY",
+            "Total": "Total"
+        },
+        "Tooltip": "Le nombre total de kilomètres que votre véhicule électrique peut parcourir tout en étant alimenté par l'énergie solaire."
+    },
+    "EVChargerUsage": {
+        "Title": "Utilisation du chargeur EV",
+        "Total": "Total",
+        "Status": {
+            "Available": "Disponible",
+            "InUse": "Utilisé",
+            "Unavailable": "Indisponible (!)"
+        },
+        "Tooltip": "Visibilete courante des bornes disponibles, en usage ou pas disponible."
+    },
+    "AirQuality": {
+        "Title": "Qualité de l'air",
+        "Category": {
+            "Good": "La qualité de l'air est jugée satisfaisante et la pollution de l'air pose peu ou pas de risque.",
+            "Moderate": "La qualité de l'air est acceptable; cependant, pour certains polluants, il peut y avoir un problème de santé modéré pour un très petit nombre de personnes qui sont inhabituellement sensibles à la pollution atmosphérique.",
+            "UnhealthyForSensitiveGroups": "Les membres de groupes sensibles peuvent subir des effets sur la santé. Le grand public ne sera probablement pas affecté.",
+            "Unhealthy": "Tout le monde peut commencer à ressentir des effets sur la santé; les membres de groupes sensibles peuvent subir des effets plus graves sur la santé.",
+            "VeryHealthy": "Alerte santé: tout le monde peut subir des effets sanitaires plus graves.",
+            "Hazardous": "Avertissements sanitaires des conditions d'urgence. La population entière est plus susceptible d'être touchée."
+        },
+        "Tooltip": "Mesures locales de la qualité de l'air pour les particules 2.5. L'anneau de couleur correspond à l'indice de qualité de l'air de l'EPA."
+    },
+    "AirQualityTrend": {
+        "Title": "Tendance de la qualité de l'air",
+        "Tooltip": "Une mesure de la teneur locale en PM2,5 au fil du temps. Les couleurs correspondent à l'indice de qualité de l'air de l'EPA."
+    },
+    "SoundAndLight": {
+        "Title": "Son et lumière",
+        "Tooltip": "Mesures du niveau de luminosité (lux) et son (decibels)"
+    },
+    "Weather": {
+        "Title": "Temps",
+        "Tooltip": "Température et humidité locales."
+    },
+    "CarbonEmissionsSaved": {
+        "Title": "Ahorro de emisiones de carbono",
+        "Date": {
+            "Today": "Jour",
+            "Month": "MMM YYYY",
+            "Year": "YYYY",
+            "Total": "Total"
+        },
+        "EV": "De l'utilisation EV",
+        "PV": "De la production PV",
+        "Tooltip": "Émissions de carbone économisées au fil du temps grâce à la production solaire et à l'utilisation des véhicules électriques par opposition aux sources d’énergie non renouvelable et véhicules à essence."
+    },
+    "BatteryCapacity": {
+        "Title": "Capacité de la batterie",
+        "Tooltip": "La capacité courante de votre pile"
+    },
+    "LastUpdated": {
+        "Text": "Dernière mise à jour"
+    },
+    "LatestReading": {
+        "Text": "Dernière lecture"
+    },
+    "NoDataAvailable": "Pas de données disponibles",
+    "Time": "h:mm a [le] dddd, MMMM D",
+    "MessageCard": {
+        "FailedLoad": "Échec du chargement, veuillez réessayer plus tard.",
+        "NoCarPort": "Aucun abri d'auto n'est attribué à votre compte.",
+        "ContactAdminCP": "Veuillez contacter un administrateur pour que les abris vous soient attribués"
+    },
+    "Notify": {
+        "Timeout": "Délai d'attente, veuillez actualiser la page",
+        "Unauthorized": "Impossible d'accéder à ce carport, retour à la valeur par défaut"
+    },
+    "Loading": {
+        "Loading": "Chargement",
+        "LoadingData": "Chargement des données",
+        "PreparingPage": "Preparando página"
+    }
+}

@@ -1,0 +1,27 @@
+// Styles
+// CoreUI Icons Set
+@import "~@coreui/icons/css/all.min.css";
+// Import Flag Icons Set
+@import "~flag-icon-css/css/flag-icon.min.css";
+// Import Font Awesome Icons Set
+@import "~font-awesome/css/font-awesome.min.css";
+// Import Simple Line Icons Set
+@import "~simple-line-icons/css/simple-line-icons.css";
+// Import Main styles for this application
+@import "./scss/style.scss";
+@import "./scss/_variables.scss";
+// Import React-Select-search styling
+@import './react-select-search-style.css';
+
+
+$rgba-highlight: rgba($highlight-color, 0.9999);  // returns hex value if opacity is 1, so we use 0.99999 to get rgb value
+$rgba-text-color: rgba($text-color, 0.9999);
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$rgba-text-color}' stroke-width='2.25' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+
+  &:hover {
+    // requires rgb value, hex does not work
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$rgba-highlight}' stroke-width='2.25' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
+}

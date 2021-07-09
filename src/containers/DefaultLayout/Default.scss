@@ -1,0 +1,53 @@
+@import '../../scss/_variables.scss';
+
+.username {
+  font-size: 20px;
+  padding-right: 20px;
+
+  @media (max-width: 420px) {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+
+.language {
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 20px;
+
+  @media (max-width: 420px) {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+
+.user-icon {
+  padding-right: 20px;
+
+  @media (max-width: 420px) {
+    padding-right: 5px;
+  }
+}
+
+.nav-link {
+  background-color: $background-color !important;
+  color: $text-color !important;
+
+  &:hover {
+    i {
+      color: $isun-orange !important;
+    }
+  }
+}
+
+.nav-link.active {
+  background-color: $background-color !important;
+
+  i {
+    color: $isun-orange !important;
+  }
+}
+
+.sidebar {
+  background-color: $background-color;
+}

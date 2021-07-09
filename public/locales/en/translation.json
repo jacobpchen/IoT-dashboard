@@ -1,0 +1,146 @@
+{
+    "Nav": {
+        "0": "Dashboard",
+        "1": "Sites",
+        "2": "Bus Stop",
+        "3": "Admin Overview",
+        "4": "Admin Settings"
+    },
+    "Language": {
+        "Language": "Language",
+        "English": "English",
+        "Spanish": "Spanish",
+        "French": "French"
+    },
+    "Profile": {
+        "Admins": "Admins",
+        "Logout": "Logout"
+    },
+    "ButtonGroup": {
+        "Day": "Day",
+        "Month": "Month",
+        "Year": "Year",
+        "Lifetime": "Lifetime"
+    },
+    "InverterChart": {
+        "Default": "Default",
+        "Title": {
+            "1": "Power Produced",
+            "2": "Energy Produced"
+        },
+        "Legend": {
+            "1": "Power Produced",
+            "2": "Energy Produced"
+        }
+    },
+    "EnergyValue": {
+        "Title": "Energy Value",
+        "PV": "Energy Cost Produced from PV",
+        "EV": "Revenue from EV Charging",
+        "Tooltip": "The total of saved costs through solar energy production and revenue generated from EV charging."
+    },
+    "EVMilesDriven": {
+        "Title": "EV Miles Driven",
+        "Date": {
+            "Today": "Today",
+            "Month": "MMM YYYY",
+            "Year": "YYYY",
+            "Total": "Total"
+        },
+        "Tooltip": "miles parcourus alimentés par des bornes de recharge de VE."
+    },
+    "EVChargerUsage": {
+        "Title": "EV Charger Usage",
+        "Total": "Total",
+        "Status": {
+            "Available": "Available",
+            "InUse": "In Use",
+            "Unavailable": "Unavailable (!)"
+        },
+        "Tooltip": "Realtime view of chargers which are available, in use, and unavailable."
+    },
+    "AirQuality": {
+        "Title": "Air Quality",
+        "Category": {
+            "Good": "Air quality is considered satisfactory, and air pollution poses little or no risk.",
+            "Moderate": "Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people who are unusually sensitive to air pollution.",
+            "UnhealthyForSensitiveGroups": "Members of sensitive groups may experience health effects. The general public is not likely to be affected.",
+            "Unhealthy": "Everyone may begin to experience health effects; members of sensitive groups may experience more serious health effects.",
+            "VeryHealthy": "Health alert: everyone may experience more serious health effects.",
+            "Hazardous": "Health warnings of emergency conditions. The entire population is more likely to be affected."
+        },
+        "Tooltip": "PM stands for particulate matter: the term for a mixture of solid particles and liquid droplets found in the air. Some particles, such as dust, dirt, soot, or smoke, are large or dark enough to be seen with the naked eye."
+    },
+    "AirQualityTrend": {
+        "Title": "Air Quality Trend",
+        "Tooltip": "A measure of local PM2.5 content over time. Colors correspond to EPA's Air Quality Index."
+    },
+    "ParticalMatter2_5": {
+        "Title": "PM 2.5",
+        "Tooltip": "PM stands for particulate matter: the term for a mixture of solid particles and liquid droplets found in the air. Some particles, such as dust, dirt, soot, or smoke, are large or dark enough to be seen with the naked eye."
+    },
+    "Eco2": {
+        "Title": "CO2e",
+        "Tooltip": "CO2 equilvalent is used to compare the emissions from various greenhouse gases on the basis of their global-warming potential by converting amounts of other gases to the equivalent amount of carbon dioxide with the same global warming potential."
+    },
+    "Tvoc": {
+        "Title": "TVOC",
+        "Category": {
+            "Excellent": "Tvoc Levels pose no risk, No irritation or discomfort is expected..",
+            "Good": "Tvoc level is a low to moderate likelihood that specific VOC sources are present, Occasional irritation or discomfort may be possible with sensitive individuals.",
+            "Moderate": "Tvoc levels are moderate likelihood that specific VOC sources are present. it is recommended that steps be taken to identify the sources, Complaints about irritation and discomfort are possible in sensitive individuals",
+            "Poor": "Tvoc levels are poor. High likelihood that specific VOC sources are present and it is highly recommended that steps be taken to identify them. Irritation and discomfort are very likely",
+            "UnHealthy": "Tvoc levels are unhealthy. These levels are usually found in an industrial environment where workers are exposed to chemicals, Irritation and discomfort are very possible.",
+            "Hazardous": "Health warnings of emergency conditions. The entire population is more likely to be affected."
+        },
+        "Tooltip": "Total volatile organic compounds is a grouping of a wide range of organic chemical compounds to simplify reporting when these are present in ambient air or emissions. Many substances, such as natural gas, could be classified as volatile organic compounds (VOCs)."
+    },
+    "SoundAndLight": {
+        "Title": "Sound & Light",
+        "TitleSound": "Sound",
+        "TitleNoise": "Noise",
+        "Tooltip": "Lux is a measure of how much light is spread over a given area. A full moon clear night is around 1 lux, and a bright day can be more than 20000 lux. dBA measure sound the noise level. A quiet library is below 40dB, your house is around 50dB and a diesel truck in your street 90dB."
+    },
+    "Weather": {
+        "Title": "Weather",
+        "Tooltip": "Local temperature and humidity."
+    },
+    "CarbonEmissionsSaved": {
+        "Title": "Carbon Emissions Saved",
+        "Date": {
+            "Today": "Today",
+            "Month": "MMM YYYY",
+            "Year": "YYYY",
+            "Total": "Total"
+        },
+        "EV": "From EV Usage",
+        "PV": "From PV Production",
+        "Tooltip": "Carbon emissions saved over time through solar production and EV usage as opposed to non-renewable energy and gasoline vehicles"
+    },
+    "BatteryCapacity": {
+        "Title": "Battery Capacity",
+        "Tooltip": "Current capacity of your iSun Roam's battery levels."
+    },
+    "LastUpdated": {
+        "Text": "Last Updated"
+    },
+    "LatestReading": {
+        "Text": "Latest reading"
+    },
+    "NoDataAvailable": "No Data Available",
+    "Time": "h:mm a [on] dddd, MMMM D",
+    "MessageCard": {
+        "FailedLoad": "Failed to load, please try again later.",
+        "NoCarPort": "No carport is assigned to your account.",
+        "ContactAdminCP": "Please contact an administrator to have carports assigned to you"
+    },
+    "Notify": {
+        "Timeout": "Timeout, please refresh page",
+        "Unauthorized": "Unable to access this carport, returning to default"
+    },
+    "Loading": {
+        "Loading": "Loading",
+        "LoadingData": "Loading Data",
+        "PreparingPage": "Preparing Page"
+    }
+}
